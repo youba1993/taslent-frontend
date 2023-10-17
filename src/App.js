@@ -7,6 +7,7 @@ import Clubs from './pages/Clubs';
 import Contracts from './pages/Contacts';
 import VieLocal from './pages/VieLocal';
 import Village from './pages/Village';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/village' element={<Village />} />
         </Routes>
      
+     <Footer />
     </div>
   );
 }
