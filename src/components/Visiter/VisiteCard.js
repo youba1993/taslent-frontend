@@ -4,7 +4,7 @@ const VisiteCard = ({ image, heading, text }) => {
     return (
         <div className='v-card'>
             <div className='visite-image'>
-                <img alt='visite image' src={image} />
+                <img alt='visite' src={image} />
             </div>
 
             <h4>{heading}</h4>
