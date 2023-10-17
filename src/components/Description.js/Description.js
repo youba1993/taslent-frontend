@@ -21,8 +21,8 @@ const Description = () => {
                     </p>
                 </div>
                 <div className='description-image'>
-                    <img alt='image description one' src='https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/taslent_xmO4SXCmR.jpg?updatedAt=1697519674832' />
-                    <img alt='image description two' src='https://ik.imagekit.io/nvnw6o7ew/Taslent/Village_taslent_Rz9Yl2TN0.jpg?updatedAt=1679463074443' />
+                    <img alt='description one' src='https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/taslent_xmO4SXCmR.jpg?updatedAt=1697519674832' />
+                    <img alt='description two' src='https://ik.imagekit.io/nvnw6o7ew/Taslent/Village_taslent_Rz9Yl2TN0.jpg?updatedAt=1679463074443' />
                 </div>
             </div>
 
@@ -40,8 +40,8 @@ const Description = () => {
                     </p>
                 </div>
                 <div className='description-image'>
-                    <img alt='image description one' src='https://ik.imagekit.io/nvnw6o7ew/Taslent/olive_-KgnwCHxG?updatedAt=1679204242151' />
-                    <img alt='image description two' src='https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/carroussel4_2lr8thORT.jpg?updatedAt=1679708571028' />
+                    <img alt='description one' src='https://ik.imagekit.io/nvnw6o7ew/Taslent/olive_-KgnwCHxG?updatedAt=1679204242151' />
+                    <img alt='description two' src='https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/carroussel4_2lr8thORT.jpg?updatedAt=1679708571028' />
                 </div>
             </div>
         </div>
