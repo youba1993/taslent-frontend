@@ -8,6 +8,7 @@ import Contracts from './pages/Contacts';
 import VieLocal from './pages/VieLocal';
 import Village from './pages/Village';
 import Footer from './components/Footer/Footer';
+import ButtonBackToTop from './components/ButtonBackToTop';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path='/vielocale' element={<VieLocal />} />
           <Route path='/village' element={<Village />} />
         </Routes>
-     
+        <ButtonBackToTop />
      <Footer />
     </div>
   );
