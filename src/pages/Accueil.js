@@ -2,12 +2,22 @@ import React from 'react'
 import HeroSection from '../components/HeroSection/HeroSection'
 import Description from '../components/Description.js/Description'
 import Visiter from '../components/Visiter/Visiter'
-
+import NosValeur from '../components/valeurSection/NosValeur'
+import { ourValues } from '../data/OurValues'
 
 const Accueil = () => {
+
   return (
     <>
       <HeroSection page="Accueil" cName="hero" />
+      <div className='valeur'>
+        <h1>Nos Valeurs</h1>
+        <div className='valeurcard'>
+          {ourValues.map((valeur, index) => <NosValeur key={index} valeur={valeur} />)}
+        </div>
+      </div>
+
+
       <Description />
       <Visiter />
       <div>
@@ -17,9 +27,9 @@ const Accueil = () => {
           width="90%"
           height="450"
           style={{ border: 0, marginBottom: "3rem", boxShadow: "2rem" }}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
+          referrerPolicy="no-referrer-when-downgrade">
         </iframe>
       </div>
     </>

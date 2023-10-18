@@ -22,9 +22,10 @@
 }
 
 .navbar-menu {
+    font-family: 'Bungee Spice', cursive;
     display: grid;
     grid-template-columns: repeat(6, auto);
-    gap: 10px;
+    gap: 5px;
     list-style: none;
     align-items: center;
 }
@@ -74,6 +75,7 @@
         margin: 0;
         transition: 0.3s ease-in-out;
         border-radius: 13px;
+        gap: 10px;
     }
 
     .navbar-menu.active {

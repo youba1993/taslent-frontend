@@ -12,7 +12,7 @@ const HeroSection = ({ page ,cName}) => {
       <div className='hero-text'>
         <h1>{heroIn.header}</h1>
         <p>{heroIn.text}</p>
-        <Link to='/'><button className={heroIn.btn ? "show" : ""}>{heroIn.btn}</button></Link>
+        <Link to='/village'><button className={heroIn.btn ? "show" : ""}>{heroIn.btn}</button></Link>
       </div>
       <div className="bottom-arrow"></div>
     </div>
