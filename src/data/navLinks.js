@@ -25,7 +25,7 @@ export const links = [
         icon: 'fa-solid fa-circle-nodes'
     },
     {
-        title: 'Acctualite',
+        title: 'Actualités',
         url: '/acctualite',
         cName: 'nav-links',
         icon: 'fa-solid fa-newspaper'
@@ -76,8 +76,8 @@ export const hero = [
     },
     {
         page: "Contacts",
-        header: "Contacts",
-        text: "Envoyer nous vos messages",
+        header: "Contactez nous",
+        text: "",
         btn: "",
         imgUrl:"https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/river1_BTIMtc7i4.jpg?updatedAt=1679708130117",
     }

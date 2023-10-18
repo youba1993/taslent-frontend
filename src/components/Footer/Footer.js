@@ -22,31 +22,29 @@ const Footer = () => {
         <div className='bottom'> 
             <div>
                 <h4>Village</h4>
-                <a href='/village'>Reglement</a>
+                <a href='/village'>Règlement</a>
                 <a href='/village'>Familles</a>
-                <a href='/village'>Nos Hero</a>
                 <a href='/village'>Tradition</a>
             </div>
 
             <div>
                 <h4>Vie Locale</h4>
-                <a href='/vielocale'>Assemble</a>
-                <a href='/vielocale'>Festivite</a>
+                <a href='/vielocale'>Assemblées</a>
+                <a href='/vielocale'>Festivités</a>
                 <a href='/vielocale'>Projets</a>
             </div>
 
             <div>
-                <h4>Acctualite</h4>
+                <h4>Actualités</h4>
                 <a href='/acctualite'>Magazine</a>
-                <a href='/acctualite'>Culture</a>
+                <a href='/acctualite'>Culture & Environnement</a>
                 <a href='/acctualite'>Sports</a>
             </div>
 
             <div>
-                <h4>Others</h4>
+                <h4>Autres</h4>
                 <a href='/clubs'>Clubs</a>
                 <a href='/contact'>Contacts</a>
-                <a href='/village'>Sports</a>
                 <a href='/'>Terms of Service</a>
                 <a href='/'>Privacy Policy</a>
             </div>
