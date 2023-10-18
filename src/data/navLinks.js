@@ -48,10 +48,10 @@ export const hero = [
     },
     {
         page: "Village",
-        header: "A Propos de Village",
+        header: "à Propos du Village",
         text: "",
         btn: "",
-        imgUrl:"https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/flower1_O7GahpwJE.jpg?updatedAt=1679708131293",
+        imgUrl:"https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/olive1_2XK1aFzuGe.jpg?updatedAt=1679708130356",
     },
     {
         page: "VieLocal",
@@ -72,7 +72,7 @@ export const hero = [
         header: "",
         text: "",
         btn: "",
-        imgUrl:"https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/olive1_2XK1aFzuGe.jpg?updatedAt=1679708130356",
+        imgUrl:"https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/flower1_O7GahpwJE.jpg?updatedAt=1679708131293",
     },
     {
         page: "Contacts",

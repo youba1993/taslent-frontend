@@ -4,7 +4,7 @@ import './mission.css'
 function Mission() {
     return (
         <div className='ourMission'>
-            <h1>notre mission</h1>
+            <h1>Notre Mission</h1>
             <div className='mission-text'>
                 <p>
                     à Taslent, nous nous engageons à bâtir une communauté forte et inclusive où chacun se sent accueilli et valorisé. Notre mission est de :
