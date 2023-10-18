@@ -65,7 +65,7 @@ const ImageSlider = ({ slides }) => {
     ...slideStyles,
     backgroundImage: `url(${slides[currentIndex].url})`,
   };
- console.log(slides)
+
   return (
     <div style={sliderStyles}>
       <div>
