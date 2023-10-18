@@ -4,7 +4,7 @@ import './nosvaleur.css'
 function NosValeur({ valeur }) {
     return (
 
-        <div className='v-card'>
+        <div className='va-card'>
             <div className='valeur-image'>
                 <img alt='valeur' src={valeur.image} />
             </div>
