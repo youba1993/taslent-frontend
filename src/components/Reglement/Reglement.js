@@ -1,154 +1,133 @@
 import React from 'react'
 import './reglement.css'
+import Collapsible from './Collapsible'
 const Reglement = () => {
     return (
         <div className='reglement'>
-             {/* <row className="flex-column flex-md-row bg-light py-3">
-                                    <col className="col-sm-4">
-                                        <h4>CHAPTER 1: PURPOSE</h4>
-                                    </col>
-                                    <col className="col-sm-8">
-                                        <h5>Article-1: </h5><p>An association called: Village Committee TASLENT commune of IGHRAM is created, bringing together all the citizens of the village.</p>
-                                        <h5>Article-2: </h5><p>The headquarters of the association located in EL DJAMAA TASLENT may be transferred by decision of the committee to any other place located in the village.</p>
-                                        <h5>Article-3: </h5><p>Is considered a citizen of the village any person who has lived, stayed or has a particular attachment to the village. However, the association is open to all natural or legal persons who will bring their contributions. Any discrimination based on race, religion, or any other consideration has no place in our community. Any foreign family that comes to settle permanently in the village will have the same rights and duties. he will be granted all his rights after consultation with all the villagers in a general assembly.</p>
-                                        <h5>Article-4: </h5><p>To have the quality of the citizen of the village, it is necessary to discharge its contributions annually and this before January 31st of the beginning of the exercise of each year. In the event of non-payment, a reminder letter is sent from the first of February to invite the member to honor his debt within one month, but in the event of no response (by March 31) After this date, the recipient is no longer considered a citizen of the village. He can, however, regularize his situation during the current calendar year with an increase in contributions. By paying the reinstatement rights as well as the current contribution. -The rights of reinstatement are fixed as follows
-                                            ; ... DA
-                                            During the period of non-payment, the person concerned loses all his rights vis-à-vis the village committee, reinstatement will take place after the payment of the rights.</p>
-                                        <h5>Article-5: </h5><p>The village committee is the only legitimate representative of the villagers to the authorities.</p>
-                                    </col>
-                                </row>
-                                <row className="flex-column flex-md-row bg-light py-3">
-                                    <col className="col-sm-4">
-                                        <h4>CHAPTER 2: OBJECTIVES AND MISSIONS</h4>
-                                    </col>
-                                    <col className="col-sm-8">
-                                        <h5>Article-6: </h5><p>The objectives of the committee are the search for solutions to the problems relating to the development of the village to improve the living environment.</p>
-                                        <ul>
-                                            <li>Mutual aid (solidarity)</li>
-                                            <li>Listening to the needs of the villagers </li>
-                                            <li>Celebration of traditional festivals</li>
-                                            <li>Creation of a "village festival" day</li>
-                                            <li>Promote the TASLENT village</li>
-                                            <li>Acquisition of tools and materials necessary for burials</li>
-                                            <li>Acquisition of the necessary furniture for the festivities of the villagers.</li>
-                                        </ul>
+            <h1>Charte du village</h1>
+            <div className='reglement-content'>
 
-                                        <h5>Article-7: </h5><p>The office of the association, thus composed, is responsible on behalf of the association for:</p>
-                                        <ul>
-                                            <li>Represent the association nearby public authorities.</li>
-                                            <li>Conclude any contract, convention or agreement related to its purpose.</li>
-                                            <li>Acquire, free of charge or against payment, movable or immovable property for the needs
-                                                activities of the association as provided for by the statutes.</li>
-                                            <li>Suggest to the decision-making body all measures likely to improve the system of organization and the installation of various bodies of the association.</li>
-                                            <li>Make amendments to the statutes and internal regulations.</li>
-                                            <li>Define the attributions of each vice president and his assessors.</li>
-                                            <li>Guaranteed the application of the statutes as well as the decisions of the general assemblies.</li>
-                                            <li>Management of the association's assets.</li>
-                                        </ul>
+                <Collapsible title="PRÉAMBULE:" defaultExpanded="true">
+                    <p>Fidèle aux engagements de nos ancêtres. Nous avons les éléments du passé, mais en même temps, nous les adaptons au présent. Nous avons travaillé selon les moyens disponibles afin de perpétuer le dynamisme vital de notre société. L'élaboration de ce document permet de poser une base, une référence pour les générations futures.</p>
+                </Collapsible>
 
-                                        <h5>Article-8: </h5><p>The association is managed by members of the office elected by the GA for a period of 2 years. The committee is made up of the members of the office, namely:</p>
-                                        <ol>
-                                            <li>The president and two vice-presidents</li>
-                                            <li>The treasurer and an assistant treasurer</li>
-                                            <li>Secretary and Assistant Secretary</li>
-                                            <li>The eight alternates</li>
-                                        </ol>
-                                        <ul>
-                                            <li>Board members meet once a month. The decisions are taken on a majority basis. In the event of a tie, the casting vote of the President.</li>
-                                            <li>The members of the office report once a year to the general meeting on the general situation and the financial statement for the year. A discharge is given each year by the general meeting after approval of its reports.</li>
-                                            <li>The general meeting is convened 48 hours in advance by posting.</li>
-                                            <li>In case of emergency The call to the general assembly can be made by sound system through the imam or his representative</li>
-                                        </ul>
+                <Collapsible title="CHAPITRE 1 : OBJECTIF">
+                    <h5>Article-1: </h5><p>Une association dénommée : Comité Villageois TASLENT commune d'IGHRAM est créée, regroupant tous les citoyens du village.</p>
+                    <h5>Article-2: </h5><p>Le siège de l'association situé à EL DJAMAA TASLENT pourra être transféré sur décision du comité à tout autre endroit situé dans le village.</p>
+                    <h5>Article-3: </h5><p>Est considérée comme citoyen du village toute personne ayant vécu, séjourné ou ayant un attachement particulier au village. Toutefois, l'association est ouverte à toutes personnes physiques ou morales qui apporteront leurs contributions. Toute discrimination fondée sur la race, la religion ou toute autre considération n'a pas sa place dans notre communauté. Toute famille étrangère venant s'installer définitivement dans le village aura les mêmes droits et devoirs. tous ses droits lui seront accordés après consultation de tous les villageois en assemblée générale.</p>
+                    <h5>Article-4: </h5><p>Pour avoir la qualité de citoyen du village, il faut s'acquitter de ses cotisations annuellement et ce avant le 31 janvier du début de l'exercice de chaque année. En cas de non-paiement, une lettre de rappel est envoyée à partir du 1er février pour inviter l'adhérent à honorer sa dette dans un délai d'un mois, mais en cas de non réponse (avant le 31 mars) Passé cette date, le destinataire n'est pas informé. n'est plus considéré comme un citoyen du village. Il peut toutefois régulariser sa situation au cours de l'année civile en cours avec une augmentation des cotisations. En payant les droits de réintégration ainsi que la cotisation en cours. - Les droits de réintégration sont fixés comme suit ; ... DA Pendant la période de non-paiement, l'intéressé perd tous ses droits vis-à-vis du comité villageois, la réintégration interviendra après le paiement des droits.</p>
+                    <h5>Article-5: </h5><p>Le comité villageois est le seul représentant légitime des villageois auprès des autorités.</p>
+                </Collapsible>
 
-                                        <h5>Article-9: </h5><p>The ordinary general meeting meets once a month. It validly deliberates on the first ballot since no quorum is required. Decisions will be taken by simple majority, ie half of the votes cast plus one clear vote (for or against); In the event of a tie, the President's vote is decisive.</p>
-                                    </col>
+                <Collapsible title="CHAPITRE 2 : OBJECTIFS ET MISSIONS">
+                    <h5>Article-6: </h5><p> "The objectives of the committee are the search for solutions to the problems relating to the development of the village to improve the living environment.",</p>
+                    <ul>
+                        <li>Entraide (solidarité)</li>
+                        <li>A l'écoute des besoins des villageois</li>
+                        <li>Célébration des fêtes traditionnelles</li>
+                        <li>Création d'une journée 'fête de village'</li>
+                        <li>Promouvoir le village TASLENT</li>
+                        <li>Acquisition des outils et matériels nécessaires aux enterrements</li>
+                        <li>Acquisition du mobilier nécessaire aux festivités des villageois.</li>
+                    </ul>
 
-                                </row>
-                                <row className="flex-column flex-md-row bg-light py-3">
-                                    <col className="col-sm-4">
-                                        <h4>CHAPTER 3: FINANCIAL PROVISIONS</h4>
-                                    </col>
-                                    <col className="col-sm-8">
-                                        <h5>Article-10: </h5><p>The amount of the contributions is fixed by the general assembly. Contributions apply to any adult head of household. The subscription can be paid either by check payable to the association, or in cash against delivery of a receipt. Social cases are exempt from contributions.</p>
-                                        <h5>Article-11: </h5><p>Is considered social case the head of the family without resources proposed by the committee and submitted to the approval of the general assembly of the village.</p>
-                                        <h5>Article-12: </h5><p>The resources of the village in accordance with the regulations in force come from: </p>
-                                        <ol>
-                                            <li>Contributions</li>
-                                            <li>Donations</li>
-                                            <li>Income related to its activities</li>
-                                            <li>Subsidies</li>
-                                        </ol>
+                    <h5>Article-7: </h5><p>Le bureau de l'association, ainsi composé, est chargé au nom de l'association de :</p>
+                    <ul>
+                        <li>Représenter l'association auprès des pouvoirs publics.</li>
+                        <li>Conclure tout contrat, convention ou accord se rapportant à son objet.</li>
+                        <li>Acquérir, à titre gratuit ou contre paiement, des biens meubles ou immeubles pour les besoins
+                            activités de l'association telles que prévues par les statuts.</li>
+                        <li>Proposer à l'organe décisionnel toutes mesures susceptibles d'améliorer le système d'organisation et l'installation des différents organes de l'association.</li>
+                        <li>Apporter des modifications aux statuts et au règlement intérieur.</li>
+                        <li>Définir les attributions de chaque vice-président et de ses évaluateurs.</li>
+                        <li>Garantit l'application des statuts ainsi que des décisions des assemblées générales.</li>
+                        <li>Gestion du patrimoine de l'association.</li>
+                    </ul>
 
-                                        <h5>Article-13: </h5><p>Only the person who is up to date with his contributions will benefit from tombstones, sands, concrete blocks as well as the property of the village.</p>
-                                        <h5>Article-14: </h5><p>The association has a bank account. Any disbursement of funds must be paid by check signed jointly by the treasurer and the president.</p>
-                                        <h5>Article-15: </h5><p>The accounts of the association must be presented in the form of a statement comprising two parts: </p>
-                                        <ul>
-                                            <li>Resources component: they must be justified by means of a receipt declined with each entry of funds.</li>
-                                            <li>Expenses section: they must be justified at each outflow of funds by a supporting document (invoices or voucher; expenditure order).</li>
-                                        </ul>
+                    <h5>Article-8: </h5><p>L'association est gérée par des membres du bureau élus par l'AG pour une durée de 2 ans. Le comité est composé des membres du bureau, à savoir :</p>
+                    <ol>
+                        <li>Le président et deux vice-présidents</li>
+                        <li>Le trésorier et un trésorier adjoint</li>
+                        <li>Secrétaire et secrétaire adjoint</li>
+                        <li>Les huit suppléants</li>
+                    </ol>
+                    <ul>
+                        <li>Les membres du conseil d'administration se réunissent une fois par mois. Les décisions sont prises à la majorité. En cas d'égalité, voix prépondérante du Président.</li>
+                        <li>Les membres du bureau rendent compte une fois par an à l'assemblée générale de la situation générale et des comptes financiers de l'exercice. Un quitus est donné chaque année par l'assemblée générale après approbation de ses rapports.</li>
+                        <li>L'assemblée générale est convoquée 48 heures à l'avance par courrier.</li>
+                        <li>En cas d'urgence La convocation à l'assemblée générale peut être faite par sonorisation par l'intermédiaire de l'imam ou de son représentant</li>
+                    </ul>
 
-                                    </col>
-                                </row>
-                                <row className="flex-column flex-md-row bg-light py-3">
-                                    <col className="col-sm-4">
-                                        <h4>CHAPTER 4: MISCELLANEOUS PROVISIONS</h4>
-                                    </col>
-                                    <col className="col-sm-8">
-                                        <h5>Article-16: </h5><p>The detailed inventory of the village's assets will be presented at the latest at the end of each year. The terms of use and rental of these assets are set at a general meeting.</p>
-                                        <ul>
-                                            <li>With regard to deaths, the provision of these goods is free for the villagers and even for citizens outside the village on an exceptional basis.</li>
-                                            <li>The olive trees of the village are auctioned at the start of the season at a general meeting.</li>
-                                            <li>The cleaning of the cemetery will be done from the month of June; the highest bidder wins works</li>
-                                            <li>The cleaning of public fountains (sources of the village) will be done in May of each year</li>
-                                        </ul>
+                    <h5>Article-9: </h5><p>L'assemblée générale ordinaire se réunit une fois par mois. Elle délibère valablement au premier tour puisqu'aucun quorum n'est requis. Les décisions seront prises à la majorité simple, c'est-à-dire la moitié des voix exprimées plus une voix claire (pour ou contre) ; En cas d'égalité, la voix du Président est déterminante.</p>
 
-                                        <h5>Article-17: </h5><p>Anyone wishing to make their house available to someone from outside the village must keep the village committee informed.</p>
-                                        <h5>Article-18: </h5><p>Toute personne ayant atteint l'âge de majorité chef de famille est tenu d'assister:</p>
-                                        <ol>
-                                            <li>The general assembly of the village</li>
-                                            <li>Volunteering</li>
-                                            <li>At funerals</li>
-                                            <li>Emergencies</li>
-                                            <li>Respond to any call from the committee</li>
-                                        </ol>
+                </Collapsible>
 
-                                    </col>
-                                </row>
-                                <row className="flex-column flex-md-row bg-light py-3">
-                                    <col className="col-sm-4">
-                                        <h4>CHAPTER 5: DISCIPLINARY PROVISION</h4>
-                                    </col>
-                                    <col className="col-sm-8">
-                                        <h5>Article-19: </h5><p>
-                                            Any amount paid or any property acquired is property of the village. Resignation or exclusion does not entitle you to any reimbursement.</p>
-                                        <h5>Article-20: </h5><p>Any disturbance to the public tranquility of the village; the person concerned will be called to order at a general meeting and will pay a fine, if he repeats the offense he will be brought before a disciplinary committee, once decided, a complaint will be filed.</p>
-                                        <ul>
-                                            <li>Legal proceedings will be initiated for the following types of offences:</li>
-                                        </ul>
-                                        <ol>
-                                            <li>Encroachments of public spaces</li>
-                                            <li>forest fire</li>
-                                            <li>Excessive use of pipes on public fountain in summer</li>
-                                            <li>Nocturnal noise disrupts public tranquility</li>
-                                            <li>Discharge of wastewater or waste in public spaces</li>
-                                            <li>Theft and damage to village public property</li>
-                                        </ol>
+                <Collapsible title="CHAPITRE 3 : DISPOSITIONS FINANCIÈRES">
+                    <h5>Article-10: </h5><p>Le montant des cotisations est fixé par l'assemblée générale. Les cotisations s'appliquent à tout chef de famille adulte. La cotisation peut être réglée soit par chèque à l'ordre de l'association, soit en espèces contre remise d'un reçu. Les cas sociaux sont exonérés de cotisations.</p>
+                    <h5>Article-11: </h5><p>Est considéré comme cas social le chef de famille sans ressources proposé par le comité et soumis à l'approbation de l'assemblée générale du village.</p>
+                    <h5>Article-12: </h5><p>Les ressources du village conformément à la réglementation en vigueur proviennent : </p>
+                    <ol>
+                        <li>Contributions</li>
+                        <li>Des dons</li>
+                        <li>Revenus liés à ses activités</li>
+                        <li>Subventions</li>
+                    </ol>
 
-                                        <p>Any person from outside the village causing harm or disturbing the public tranquility of the village will be the subject of a complaint to the competent courts.</p>
+                    <h5>Article-13: </h5><p>Seule la personne à jour de ses cotisations bénéficiera des pierres tombales, sables, blocs de béton ainsi que des biens du village.</p>
+                    <h5>Article-14: </h5><p>The L'association dispose d'un compte bancaire. Tout déboursement de fonds doit être payé par chèque signé conjointement par le trésorier et le président. has a bank account. Any disbursement of funds must be paid by check signed jointly by the treasurer and the president.</p>
+                    <h5>Article-15: </h5><p>Les comptes de l'association doivent être présentés sous la forme d'un état comprenant deux parties :</p>
+                    <ul>
+                        <li>Volet ressources : elles doivent être justifiées au moyen d'un récépissé refusé à chaque entrée de fonds.</li>
+                        <li>Rubrique dépenses : elles doivent être justifiées à chaque sortie de fonds par une pièce justificative (factures ou justificatif ; ordre de dépenses).</li>
+                    </ul>
+                </Collapsible>
 
-                                        <h5>Article-21: </h5><p>Any member of the office who, without reason, has not attended five consecutive meetings, may be considered as having resigned.</p>
-                                        <h5>Article-22: </h5><p>This regulation was adopted on , may be subject to amendment provided that it is in the interest of the village; it must be approved by the general assembly.</p>
-                                    </col>
-                                </row>
-                                <row className="flex-column flex-md-row bg-light py-3">
-                                    <col className="col-sm-4">
-                                        <h4>CONCLUSION:</h4>
-                                    </col>
-                                    <col className="col-sm-8">
-                                        <p>“ The myth works in societies like the dream in the individual. Like him, he has the elements of the past, he transmits them but at the same time, he arranges them according to the present. When a trauma occurs, the myth, like the dream, never ceases to represent it, until its inscription in history is possible, until its content can be named, become a memory of the Kabyle myth, which functions as a true myth: it designates an origin and a corpus of values, it permeates the unconscious and the conscious, it circulates in memory and in language. It establishes the vital dynamism of a society.“</p>
-                                    </col>
+                <Collapsible title="CHAPITRE 4 : DISPOSITIONS DIVERSES">
+                    <h5>Article-16: </h5><p>L'inventaire détaillé du patrimoine du village sera présenté au plus tard à la fin de chaque année. Les modalités d'utilisation et de location de ces actifs sont fixées en assemblée générale.</p>
+                    <ul>
+                        <li>En ce qui concerne les décès, la mise à disposition de ces biens est gratuite pour les villageois et même pour les citoyens extérieurs au village à titre exceptionnel.</li>
+                        <li>Les oliviers du village sont vendus aux enchères en début de saison lors d'une assemblée générale.</li>
+                        <li>Le nettoyage du cimetière se fera à partir du mois de juin ; le plus offrant remporte les travaux</li>
+                        <li>Le curage des fontaines publiques (sources du village) se fera en mai de chaque année</li>
+                    </ul>
 
-                                </row> */}
+                    <h5>Article-17: </h5><p>Toute personne souhaitant mettre sa maison à la disposition d'une personne extérieure au village doit en informer le comité villageois.</p>
+                    <h5>Article-18: </h5><p>Toute personne ayant atteint l'âge de majorité chef de famille est tenu d'assister:</p>
+                    <ol>
+                        <li>L'assemblée générale du village</li>
+                        <li>Faire du bénévolat</li>
+                        <li>Aux funérailles</li>
+                        <li>Urgences</li>
+                        <li>Répondre à tout appel du comité</li>
+                    </ol>
+
+                </Collapsible>
+
+                <Collapsible title="CHAPITRE 5 : DISPOSITION DISCIPLINAIRE">
+                    <h5>Article-19: </h5><p>Toute somme versée ou tout bien acquis est propriété du village. La démission ou l’exclusion ne donne droit à aucun remboursement.</p>
+                    <h5>Article-20: </h5><p>Toute perturbation de la tranquillité publique du village ; l'intéressé sera rappelé à l'ordre en assemblée générale et paiera une amende, s'il récidive il sera traduit devant une commission de discipline, une fois décidé, une plainte sera déposée.</p>
+                    <ul>
+                        <li>Des poursuites judiciaires seront engagées pour les types d’infractions suivants :</li>
+                    </ul>
+                    <ol>
+                        <li>Empiétements sur les espaces publics</li>
+                        <li>feu de forêt</li>
+                        <li>Utilisation excessive des canalisations sur les fontaines publiques en été</li>
+                        <li>Le bruit nocturne perturbe la tranquillité publique</li>
+                        <li>Rejet des eaux usées ou des déchets dans les espaces publics</li>
+                        <li>Vols et dégradations des biens publics du village</li>
+                    </ol>
+
+                    <p>Toute personne extérieure au village causant des dommages ou troublant la tranquillité publique du village fera l'objet d'une plainte auprès des tribunaux compétents.</p>
+
+                    <h5>Article-21: </h5><p>Tout membre du bureau qui, sans motif, n'aura pas assisté à cinq réunions consécutives, pourra être considéré comme démissionnaire.</p>
+                    <h5>Article-22: </h5><p>Ce règlement a été adopté le , peut être sujet à modification pour autant que cela soit dans l'intérêt du village ; il doit être approuvé par l'assemblée générale.</p>
+                </Collapsible>
+
+                <Collapsible title="CONCLUSION:">
+                    <p>Le mythe fonctionne dans les sociétés comme le rêve chez l'individu. Comme lui, il possède les éléments du passé, il les transmet mais en même temps, il les agence en fonction du présent. Lorsqu'un traumatisme survient, le mythe, comme le rêve, ne cesse de le représenter, jusqu'à ce que son inscription dans l'histoire soit possible, jusqu'à ce que son contenu puisse être nommé, devenir mémoire du mythe kabyle, qui fonctionne comme un véritable mythe : il désigne origine et corpus de valeurs, elle imprègne l'inconscient et le conscient, elle circule dans la mémoire et dans le langage. Il établit le dynamisme vital d’une société.</p>
+                </Collapsible>
+            </div>
         </div>
     )
 }

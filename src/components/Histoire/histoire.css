@@ -1,14 +1,15 @@
-.famille {
+.histoire {
     margin: 4rem 6rem;
 }
 
-.famille h1 {
+.histoire h1 {
     font-size: 3rem;
 }
 
-.famille .f-content {
+.histoire .h-content {
     font-size: 1.1rem;
-    columns: 10em;
+    font-style: italic;
+    columns: 18em;
     column-gap: 3em;
     column-rule: 1px solid gray;
     text-align: justify;
@@ -16,16 +17,10 @@
     margin-top: 3rem;
     box-shadow: -1px 1px 62px -30px rgba(0, 0, 0, 0.19);
     padding: 2rem;
-    text-decoration: ;
 }
 
 @media screen and (max-width: 850px) {
-    .famille {
+    .histoire {
         margin: 4rem 2rem;
-    }
-
-    .famille .f-content {
-        columns: 5em;
-        column-gap: 3em;
     }
 }

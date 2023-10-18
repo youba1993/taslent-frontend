@@ -1,1 +1,52 @@
-.reglement {}
+.reglement {
+    margin: 4rem 6rem;
+}
+
+.reglement h1 {
+    font-size: 3rem;
+}
+.reglement-content {
+    margin-top: 3rem;
+}
+
+.collapsible {
+    text-align: start;
+    margin-top: 1rem;
+    box-shadow: -1px 1px 62px -30px rgba(0, 0, 0, 0.19);
+}
+
+.collapsible .content {
+    padding: 6px;
+    background-color: rgb(247, 247, 247);
+    font-size: 14px;
+}
+.collapsible .header {
+    background-color: rgb(228, 224, 224);
+    padding: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(220, 220, 220);
+}
+.collapsible .header .title {
+    font-weight: 500;
+}
+.preferences label {
+    display: block;
+    padding-bottom: 4px;
+}
+
+.collapsible .content h5 {
+    font-size: 1rem;
+}
+
+.collapsible .content ol, ul {
+    padding: 4px;
+    margin-left: 5px;
+} 
+
+@media screen and (max-width: 850px) {
+    .reglement {
+        margin: 4rem 2rem;
+    }
+}

@@ -5,6 +5,7 @@ import Reglement from '../components/Reglement/Reglement'
 import Famille from '../components/Famille /Famille'
 import Traditions from '../components/Traditions/Traditions'
 import NosValeur from '../components/valeurSection/NosValeur'
+import Histoire from '../components/Histoire/Histoire'
 
 const  Village = () => {
   return (
@@ -12,6 +13,7 @@ const  Village = () => {
     <HeroSection page="Village" cName="hero-mid" />
     <NosValeur />
     <Mission />
+    <Histoire />
     <Reglement />
     <Famille />
     <Traditions />
