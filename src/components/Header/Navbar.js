@@ -18,7 +18,7 @@ const Navbar = () => {
             <ul className={clicked ? "navbar-menu active" : "navbar-menu"}>
                 {links.map((item, index) => (
                     <li key={index}>
-                        <Link className={item.cName} to={item.url}>
+                        <Link className={item.cName} to={item.url} onClick={handleClick}>
                             <i className={item.icon}></i>
                             {item.title}
                         </Link>

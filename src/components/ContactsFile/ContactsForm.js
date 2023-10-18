@@ -5,7 +5,7 @@ const ContactsForm = () => {
   return (
     <div className='form-container'>
         <h1>Envoyer nous vos messages</h1>
-        <form method="POST" netlify>
+        <form method="POST" data-netlify="true">
             <input required type='text' name='Nom' placeholder='Nom'/>
             <input required type='text' name='prenom' placeholder='Prenom' />
             <input required type='email' name='email' placeholder='Email' />
