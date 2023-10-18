@@ -31,7 +31,6 @@ const Footer = () => {
             <div>
                 <h4>Vie Locale</h4>
                 <a href='/vielocale'>Assemblées</a>
-                <a href='/vielocale'>Festivités</a>
                 <a href='/vielocale'>Projets</a>
                 <a href='/village'>Traditions</a>
             </div>

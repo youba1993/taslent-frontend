@@ -44,6 +44,8 @@ const Description = () => {
                     <img alt='description two' src='https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/carroussel4_2lr8thORT.jpg?updatedAt=1679708571028' />
                 </div>
             </div>
+
+            
         </div>
     )
 }

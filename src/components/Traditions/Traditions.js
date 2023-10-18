@@ -3,7 +3,7 @@ import './tradition.css'
 const Traditions = () => {
   return (
     <div className='tradition'>
-      <h1>Nos Traditions</h1>
+      <h1>Nos Traditions et Festivités</h1>
     </div>
   )
 }

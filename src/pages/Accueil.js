@@ -7,7 +7,12 @@ const Accueil = () => {
 
   return (
     <>
+    
       <HeroSection page="Accueil" cName="hero" />
+      
+      {/* Button donation a activer quand vous avez des donations le css se trouve dans app.css */}
+      {/* <button class="ribbon">Donate</button> */}
+
       <Description />
       <Visiter />
 

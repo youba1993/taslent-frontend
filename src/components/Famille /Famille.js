@@ -35,7 +35,7 @@ const Famille = () => {
           <p>Hennou</p>
           <p>Ibalaiden</p>
           <p>Idjis</p>
-          <p>Ihakane</p>
+          <p>Iharkane</p>
           <p>Iskounen</p>
           <p>Kherbouche</p>
           <p>Khezaz</p>
