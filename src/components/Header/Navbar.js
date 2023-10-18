@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { links } from '../../data/navLinks';
 import './navbarStyles.css';
 import { Link } from 'react-router-dom';
@@ -10,7 +10,7 @@ const Navbar = () => {
     }
     return (
         <nav className='navbarItems'>
-            <h1 className='navbar-logo'>ⵜⴰⵙⵍⴻⵏⵜ</h1>
+            <Link className='navbar-logo' to='/'><h1>ⵜⴰⵙⵍⴻⵏⵜ</h1></Link>
             <div className='menu-icons' onClick={handleClick}>
                 <i className={clicked ? 'fas  fa-times' : 'fas  fa-bars'}></i>
             </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
                 {links.map((item, index) => (
                     <li key={index}>
                         <Link className={item.cName} to={item.url}>
-                        <i className={item.icon}></i>
+                            <i className={item.icon}></i>
                             {item.title}
                         </Link>
                     </li>
