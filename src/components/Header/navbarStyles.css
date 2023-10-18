@@ -23,7 +23,6 @@
 }
 
 .navbar-menu {
-    font-family: 'Bungee Spice', cursive;
     display: grid;
     grid-template-columns: repeat(6, auto);
     gap: 5px;
