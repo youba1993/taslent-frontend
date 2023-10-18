@@ -1,7 +1,7 @@
 export const cards = [
     {
-        image: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/thighzarth_NLgVVN0O8.jpg?updatedAt=1697526493374",
-        heading: "Fontaine Thighzarth",
+        image: "https://ik.imagekit.io/nvnw6o7ew/Taslent/culture4_E4VykRfsw.jpg?updatedAt=1697697974491",
+        heading: "TALA OU3ATHMANE",
         text: "La fontaine kabyle, source de vie et de sérénité, s'écoule doucement, chantant les histoires des montagnes. Ses eaux claires, témoins du temps ancestral, racontent des légendes, tandis que les pierres polies par le temps offrent un lieu de repos aux voyageurs. Entourée de fleurs sauvages et de senteurs d'herbes fraîches, la fontaine évoque la simplicité et la beauté intemporelle de la vie dans les montagnes de Kabylie",
     },
     {
