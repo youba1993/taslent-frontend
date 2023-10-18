@@ -7,8 +7,8 @@ export const pcards = [
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/well2_f42o8I2Wc.jpg?updatedAt=1697668963691"},
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/well5_c-kV_CgBN.jpg?updatedAt=1697668963046"},
         ],
-        heading: "Forage",
-        text: "Forage dun puitLa fontaine kabyle,",
+        heading: "Forage Puit",
+        text: "Forage d'un puit pour ameliorer le service des eaux potable du village",
     },
     {
         image: [
@@ -17,8 +17,8 @@ export const pcards = [
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/manage-3_QzeH5YRgN.jpg?updatedAt=1697668958902"},
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/manage-2_uFUwfDKyHy.jpg?updatedAt=1697668958884"},
         ],
-        heading: "reamenagement manage",
-        text: "reamenagement manage du velage pour mettre au enfants de jouer librement",
+        heading: "Air de jeux",
+        text: "Reamenagement air de jeux du village",
     },
     {
         image: [
@@ -26,8 +26,8 @@ export const pcards = [
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/thighzarth3_-rzo-UBn4.jpg?updatedAt=1697668961507"},
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/thighzarth1_HN9OeklGS.jpg?updatedAt=1697668960598"},
         ],
-        heading: " amenagement du canal thighzarth",
-        text: "amenagement du tighzarth canal",
+        heading: "Tighzarth",
+        text: "Amenagement des buses tighzarth ",
     },
     {
         image: [
@@ -35,8 +35,8 @@ export const pcards = [
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/bibliotheque_IvzCJxrQo.jpg?updatedAt=1697668959310"},
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/bibliotheque3_ZB5b3IxWiF.jpg?updatedAt=1697668958320"},
         ],
-        heading: "renovation du library",
-        text: "renovation du library du village",
+        heading: "Renovation de la Bibliotheque",
+        text: "Renovation du Bibliotheque du village",
     },
     {
         image: [
@@ -44,7 +44,7 @@ export const pcards = [
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/extension-centre_zAJFE5b88.jpg?updatedAt=1697668958478"},
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/Projets/extension-centre3_V--3J7q8U.jpg?updatedAt=1697668957878"},
         ],
-        heading: "extension du centre tajmaate oufala",
-        text: "extension du centre culturelle tajmaate oufala",
+        heading: "Centre tajmaate oufala",
+        text: "Extension du centre culturelle tajmaate oufala",
     }
 ]
