@@ -1,0 +1,48 @@
+.ourMission {
+    padding: 4rem 6rem;
+    
+}
+
+.ourMission h1 {
+    font-size: 3rem;
+}
+
+.mission-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    box-shadow: -1px 1px 62px -30px rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+    gap: 2rem;
+    text-align: start;  
+}
+
+.mission-text p {
+    width: 30%;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.mission-text ul {
+  font-weight: 600; 
+  list-style-type: circle;
+  
+}
+
+@media screen and (max-width: 850px) {
+    .ourMission {
+        padding: 4rem 2rem;
+    }
+
+    .mission-text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .mission-text p{
+        width: 100%;
+    }
+
+}
