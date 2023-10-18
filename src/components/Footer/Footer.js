@@ -22,7 +22,7 @@ const Footer = () => {
         <div className='bottom'> 
             <div>
                 <h4>Village</h4>
-                <a href='/village'>Règlement</a>
+                <a href='/village'>règlement général</a>
                 <a href='/village'>Familles</a>
                 <a href='/village'>Tradition</a>
             </div>
