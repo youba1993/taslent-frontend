@@ -3,7 +3,6 @@ import HeroSection from '../components/HeroSection/HeroSection'
 import Mission from '../components/MissionSection/Mission'
 import Reglement from '../components/Reglement/Reglement'
 import Famille from '../components/Famille /Famille'
-import Traditions from '../components/Traditions/Traditions'
 import NosValeur from '../components/valeurSection/NosValeur'
 import Histoire from '../components/Histoire/Histoire'
 
@@ -16,7 +15,6 @@ const  Village = () => {
     <Histoire />
     <Reglement />
     <Famille />
-    <Traditions />
     </>
   )
 }

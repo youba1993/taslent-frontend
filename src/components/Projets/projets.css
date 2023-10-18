@@ -1,13 +1,13 @@
-.tradition {
+.projets {
     margin: 4rem 6rem;
 }
 
-.tradition h1 {
+.projets h1 {
     font-size: 3rem;
 }
 
 @media screen and (max-width: 850px) {
-    .tradition {
+    .projets {
         margin: 4rem 2rem;
     }
 }

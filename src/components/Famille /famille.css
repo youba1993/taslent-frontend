@@ -10,13 +10,16 @@
     font-size: 1.1rem;
     columns: 10em;
     column-gap: 3em;
-    column-rule: 1px solid gray;
+    column-rule: 2px solid gray;
     text-align: justify;
     hyphens: auto;
     margin-top: 3rem;
     box-shadow: -1px 1px 62px -30px rgba(0, 0, 0, 0.19);
     padding: 2rem;
-    text-decoration: ;
+}
+
+.famille .f-content p {
+    text-shadow: 1px 1px 2px rgb(198, 173, 177);
 }
 
 @media screen and (max-width: 850px) {

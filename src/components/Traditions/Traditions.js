@@ -2,7 +2,9 @@ import React from 'react'
 import './tradition.css'
 const Traditions = () => {
   return (
-    <div>Traditions</div>
+    <div className='tradition'>
+      <h1>Nos Traditions</h1>
+    </div>
   )
 }
 

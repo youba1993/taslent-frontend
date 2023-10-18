@@ -1,13 +1,13 @@
-.tradition {
+.festivite {
     margin: 4rem 6rem;
 }
 
-.tradition h1 {
+.festivite h1 {
     font-size: 3rem;
 }
 
 @media screen and (max-width: 850px) {
-    .tradition {
+    .festivite {
         margin: 4rem 2rem;
     }
 }

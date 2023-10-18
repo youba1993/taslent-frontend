@@ -22,9 +22,10 @@ const Footer = () => {
         <div className='bottom'> 
             <div>
                 <h4>Village</h4>
+                <a href='/village'>Présentation</a>
                 <a href='/village'>règlement général</a>
                 <a href='/village'>Familles</a>
-                <a href='/village'>Tradition</a>
+               
             </div>
 
             <div>
@@ -32,6 +33,7 @@ const Footer = () => {
                 <a href='/vielocale'>Assemblées</a>
                 <a href='/vielocale'>Festivités</a>
                 <a href='/vielocale'>Projets</a>
+                <a href='/village'>Traditions</a>
             </div>
 
             <div>
