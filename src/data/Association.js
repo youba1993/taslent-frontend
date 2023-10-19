@@ -4,7 +4,8 @@ export const ascards = [
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/notable_XbBN38yTu.jpg?updatedAt=1697701114119" },
         ],
         heading: "Comité des Notables Tadarth TASLENT",
-        text: "https://www.facebook.com/groups/6259572290726554",
+        link: "https://www.facebook.com/groups/6259572290726554",
+        text: ""
     },
     {
         image: [
@@ -19,7 +20,8 @@ export const ascards = [
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/thafath2_gPOg_y36z.jpg?updatedAt=1697701850248" },
         ],
         heading: "L'association Culturelle des Femmes de notre village TAFATH TASLENT",
-        text: "https://www.facebook.com/profile.php?id=100089060176531",
+        link: "https://www.facebook.com/profile.php?id=100089060176531",
+        text: "",
     },
     
 ]
@@ -44,6 +46,18 @@ export const clcards = [
     },
     {
         image: [
+            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/le_matin_grande_Q3wIv6TDQc.jpg?updatedAt=1697704338172" },
+            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/movein_big_0U4_s5XiPq.jpg?updatedAt=1697704386957" },
+            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/la_depeche_grande2_rM6Gt6HqX.jpg?updatedAt=1697704394778" },
+            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/cases_big_lE75aTHrB.jpg?updatedAt=1697704380371" },
+            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/meeting_big_v9HvfeHA2.jpg?updatedAt=1697704373026" },
+        ],
+        heading: "Le Club Scientifique Phare du Savoir",
+        link: "www.taslent.com",
+        text: ""
+    },
+    {
+        image: [
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/jst5_8YbH6QgVp.jpg?updatedAt=1697701113401" },
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/jst2_xmlk8i7sO0.jpg?updatedAt=1697701112425" },
             { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/jst4_eGaUs4qUYy.jpg?updatedAt=1697701112272" },
@@ -53,16 +67,6 @@ export const clcards = [
         heading: "Club de football des vétérans de JST",
         text: "",
     },
-    {
-        image: [
-            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/(library)movein_big_B4_5qsLiB.gif?updatedAt=1697703001434" },
-            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/(library)la_depeche_grande2_2El_0uFaU.gif?updatedAt=1697702943799" },
-            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/(library)le_matin_grande_1e_vkM2Bs.gif?updatedAt=1697702943758" },
-            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/(library)meeting_big_tDNPK7Rg-.gif?updatedAt=1697703001134" },
-            { url: "https://ik.imagekit.io/nvnw6o7ew/Taslent/Clubs/(library)cases_big_mkKIuFIMC.gif?updatedAt=1697703001470" },
-        ],
-        heading: "Le Club Scientifique Phare du Savoir",
-        text: "",
-    },
+    
 
 ]
