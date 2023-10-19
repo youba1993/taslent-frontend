@@ -32,7 +32,7 @@ const ContactsForm = () => {
     <div id="contact" className='form-container'>
       <h1>Envoyer nous vos messages</h1>
       <input type="hidden" name="form-name" value="contact" />
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true" onSubmit={() => handleSubmit()}>
         <input required type='text' name='Nom' id='Nom' placeholder='Nom' onChange={(e) => setNom(e.target.value)}/>
         <input required type='text' name='prenom' id="prenom" placeholder='Prenom' onChange={(e) => setPrenom(e.target.value)}/>
         <input required type='email' name='email' is="email" placeholder='Email' onChange={(e) => setEmail(e.target.value)}/>
