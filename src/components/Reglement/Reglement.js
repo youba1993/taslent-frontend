@@ -4,7 +4,8 @@ import Collapsible from './Collapsible'
 const Reglement = () => {
     return (
         <div className='reglement'>
-            <h1>Charte du village</h1>
+            <h1 id='reglement-general'>Charte du village</h1>
+            
             <div className='reglement-content'>
 
                 <Collapsible title="PRÉAMBULE:" defaultExpanded="true">

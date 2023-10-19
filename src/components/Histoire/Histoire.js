@@ -3,7 +3,8 @@ import './histoire.css'
 
 const Histoire = () => {
   return (
-    <article className='histoire'>
+    <article id="presentation-section" className='histoire'>
+     
       <h1>Présentation du Village</h1>
       <div className='h-content'>
 

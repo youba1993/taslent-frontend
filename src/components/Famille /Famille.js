@@ -4,7 +4,7 @@ import './famille.css'
 const Famille = () => {
   return (
     <div className='famille'>
-      <h1>Noms de Famille à Taslent</h1>
+      <h1 id="famille-village">Noms de Famille à Taslent</h1>
       <div className='f-content'>
           <p>Abbas</p>
           <p>Ait Mekourta</p>

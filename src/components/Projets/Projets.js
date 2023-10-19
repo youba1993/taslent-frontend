@@ -6,7 +6,8 @@ import ProjectCard from './ProjectCard'
 function Projets() {
     return (
         <div className='projets'>
-            <h1>Nos Projets</h1>
+            <h1 id='Projetsv'>Nos Projets</h1>
+          
             <div className='projectcard'>
                 {pcards.map((card, index) =>
                     <ProjectCard key={index} image={card.image} heading={card.heading} text={card.text}
