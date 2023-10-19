@@ -62,7 +62,7 @@ export const hero = [
     },
     {
         page: "Clubs",
-        header: "Clubs",
+        header: "Clubs et Associations",
         text: "",
         btn: "",
         imgUrl:"https://ik.imagekit.io/nvnw6o7ew/Taslent/projects/nature2_WUTxWAJ6y.jpg?updatedAt=1679708131642",
