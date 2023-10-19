@@ -6,12 +6,12 @@ export const cards = [
     },
     {
         image: "https://ik.imagekit.io/nvnw6o7ew/Taslent/carrousel6_IfcGAY-Yr?updatedAt=1679203036366",
-        heading: "Stade",
+        heading: "STADE",
         text: "Le stade du village, joyeux carrefour de passion et d'énergie, vibre au rythme du sport et de la communauté. Venez respirer l'excitation du jeu, sentir l'esprit d'équipe et laissez-vous emporter par l'ambiance festive. Un lieu où les rires des supporters et les exploits sur le terrain créent des souvenirs inoubliables. Faites un tour au stade, découvrez le cœur battant de notre village",
     },
     {
         image: "https://ik.imagekit.io/nvnw6o7ew/Taslent/river_tpIblbUVx?updatedAt=1679203922343",
-        heading: "Thamda",
+        heading: "THAMDA",
         text: "Les petites piscines naturelles des montagnes kabyles, trésors cristallins cachés le long des rivières, invitent à une immersion rafraîchissante. Les eaux claires et pures, doucement caressées par les rochers polis, offrent un refuge tranquille. Des joyaux naturels où les montagnes se reflètent, créant des bassins secrets dans lesquels l'émeraude et le bleu se fondent harmonieusement. Découvrez ces oasis naturelles, plongez dans la fraîcheur des montagnes, et laissez-vous emporter par la magie de ces petites merveilles aquatiques",
     }
 ]
