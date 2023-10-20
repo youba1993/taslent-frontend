@@ -40,7 +40,13 @@
       margin: 4rem 2rem;
       padding-top: 1rem;
   }
+
+  .privacy-container {
+    margin: 4rem 2rem;
 }
+
+
+
 /* css pour donation button  */
 /* .ribbon {
   width: 60px;
