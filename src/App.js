@@ -9,6 +9,8 @@ import VieLocal from './pages/VieLocal';
 import Village from './pages/Village';
 import Footer from './components/Footer/Footer';
 import ButtonBackToTop from './components/ButtonBackToTop';
+import TermsOfService from './pages/TermsOfServices';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path='/contact' element={<Contracts />} />
           <Route path='/vielocale' element={<VieLocal />} />
           <Route path='/village' element={<Village />} />
+          <Route path='/term' element={<TermsOfService />} />
+          <Route path='/privacy' element={<PrivacyPolicy />} />
         </Routes>
         <ButtonBackToTop />
      <Footer />

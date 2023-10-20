@@ -46,8 +46,8 @@ const Footer = () => {
                 <h4>Autres</h4>
                 <a href='/clubs'>Clubs</a>
                 <a href='/contact'>Contacts</a>
-                <a href='/'>Terms of Service</a>
-                <a href='/'>Privacy Policy</a>
+                <a href='/term'>Terms of Service</a>
+                <a href='/privacy'>Privacy Policy</a>
             </div>
         </div>
     </footer>
