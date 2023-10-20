@@ -3,6 +3,7 @@ import React from 'react';
 const TermsOfService = () => {
   return (
     <div className="terms-container">
+          <a href='/'>retourn to taslent.org</a>
       <h2>Terms of Service for taslent.org</h2>
 
       <p>
@@ -32,7 +33,7 @@ const TermsOfService = () => {
 
       <p>
         <strong>5. Privacy Policy</strong>
-        Your use of taslent.org is also governed by our Privacy Policy, which can be found <a href="#">here</a>.
+        Your use of taslent.org is also governed by our Privacy Policy, which can be found <a href="/privacy">here</a>.
       </p>
 
       <p>
