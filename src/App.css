@@ -11,7 +11,18 @@
   font-family: 'Manrope', sans-serif;
 }
 
-.acctualite  {
+.privacy-container {
+  margin: 4rem 6rem;
+  padding-top: 5rem ;
+  text-align: start;
+ 
+}
+
+.privacy-container h2{
+  padding-bottom: 2rem;
+}
+
+.acctualite   {
     margin: 4rem 6rem;
     padding-top: 2rem;
 }
